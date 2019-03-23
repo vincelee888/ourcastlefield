@@ -1,0 +1,21 @@
+.header {
+  @include cf();
+}
+
+.header__logo {
+  float: left;
+  margin-right: 10px;
+}
+
+.header__title {
+  font-size: 24px;
+  border-bottom: 2px $cas-gold solid;
+  margin-left: 38px;
+}
+
+.header__title-first {
+  color: $cas-gold;
+}
+
+.header__title-second {
+}

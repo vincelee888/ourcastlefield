@@ -1,0 +1,13 @@
+<footer class="footer">
+  <div class="container">
+    <p>&copy; {{ .footer.Params.copyright }}</p>
+    <dl>
+      <dt class="footer__link-label">Email:</dt>
+      <dd class="footer__link-anchor"><a href="mailto:{{ .footer.Params.email }}">{{ .footer.Params.email }}</a></dd>
+      <dt class="footer__link-label">Facebook:</dt>
+      <dd class="footer__link-anchor"><a href="{{ .footer.Params.facebook }}">Facebook</a></dd>
+      <dt class="footer__link-label">Twitter:</dt>
+      <dd class="footer__link-anchor"><a href="{{ .footer.Params.twitter }}">Twitter</a></dd>
+    </dl>
+  </div>
+</footer>

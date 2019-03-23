@@ -1,0 +1,14 @@
+.home-hero {
+  background-color: black;
+  background-position: center;
+  color: white;
+  min-height: 600px;
+  max-height: 100vh;
+  display: flex;
+  align-items: flex-end; }
+  .home-hero .container {
+    background: rgba(0, 0, 0, 0.7); }
+
+.home-hero__title-small {
+  font-size: 24px;
+  display: block; }

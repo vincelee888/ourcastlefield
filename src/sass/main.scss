@@ -1,0 +1,13 @@
+@import '../../node_modules/normalize-scss/sass/normalize/import-now';
+
+@import './modules/mixins';
+@import './modules/variables';
+@import './components/typography';
+
+@import './components/header';
+@import './components/container';
+@import './components/block';
+@import './components/footer';
+
+@import './components/btn';
+@import './components/home-hero';

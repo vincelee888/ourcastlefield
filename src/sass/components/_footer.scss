@@ -1,0 +1,27 @@
+.footer {
+  background: black;
+  color: white;
+  padding: $padding;
+  @include cf();
+}
+
+.footer__link-label {
+  @extend .sr-only;
+}
+
+.footer__link-anchor {
+  margin: 0;
+  float: left;
+  margin-right: 1em;
+
+  &::after {
+    content: "|";
+    padding-left: 1em;
+  }
+
+  &:last-child {
+    &::after {
+      content: none;
+    }
+  }
+}

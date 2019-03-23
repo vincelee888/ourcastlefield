@@ -1,9 +1,26 @@
 {{ define "main" }}
 
-<h1>Hugo with Webpack, Sass, and PostCSS</h1>
+<section class="home-hero" style="background-image: url({{ .Params.hero.background }})">
+  <div class="container">
+    <h1 class="home-hero__title">
+      <span class="home-hero__title-small">{{ .Params.hero.titleSmall }}</span>
+      <span class="home-hero__title-big home-hero__title-big--first">{{ .Params.hero.titleBigFirst }}</span>
+      <span class="home-hero__title-big home-hero__title-big--second">{{ .Params.hero.titleBigSecond }}</span>
+    </h1>
+    {{ $bodyMarkdown := .Params.hero.body | markdownify }}
+    {{ if not ( strings.Contains $bodyMarkdown "<p>" ) }}<p>{{ $bodyMarkdown }}</p>
+    {{ else }}{{ $bodyMarkdown }}{{ end }}
+  </div>
+</section>
 
-<h3>Hooray 🎉 - you've built this with <a href="https://github.com/netlify/victor-hugo">Victor-Hugo</a>!</h3>
-
-<a href="{{ "/tech" | relURL }}">Check out the tech</a>
+<section class="block">
+  <div class="container">
+    <h1 class="h2">{{ .Params.about.title }}</h1>
+    
+    {{ $bodyMarkdown := .Params.about.body | markdownify }}
+    {{ if not ( strings.Contains $bodyMarkdown "<p>" ) }}<p>{{ $bodyMarkdown }}</p>
+    {{ else }}{{ $bodyMarkdown }}{{ end }}
+  </div>
+</section>
 
 {{ end }}

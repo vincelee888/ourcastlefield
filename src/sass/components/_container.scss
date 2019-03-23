@@ -1,0 +1,9 @@
+.container {
+  max-width: $page-width;
+  margin: 0 auto;
+  padding: 10px;
+
+  @include mq($from: desktop) {
+    padding: 20px;
+  }
+}
