@@ -6,7 +6,7 @@
 
     {{ partial "bodyMarkdown.html" .Params.about.body }}
     
-    {{ range first 2 (where .Site.RegularPages.ByDate.Reverse "Section" "action-groups") }}
+    {{ range first 2 .Pages }}
     <div class="card-story card-stroy-witharrow">
       <h3 class="card-story-title">{{ .Params.summary.heading }}</h3>
       <div class="card-story-image aspect aspect-5by2 bg-rc-spark">

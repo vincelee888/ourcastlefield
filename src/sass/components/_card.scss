@@ -1,0 +1,39 @@
+$card-spacing: 15px;
+
+.card-list {
+  margin: $card-spacing 0;
+  padding: 0;
+  @include cf();
+}
+
+.card {
+  display: block;
+  text-decoration: none;
+  margin-bottom: $card-spacing;
+  box-sizing: border-box;
+
+  .card-list--2-col & {
+    @include mq($from: desktop) {
+      float: left;
+      width: 50%;
+      padding-right: $card-spacing;
+
+      &:nth-child(2n) {
+        padding-right: 0px;
+      }
+    }
+  }
+}
+
+.card__container {
+  display: block;
+  border-radius: 10px;
+  border: 2px solid $cas-red;
+  padding: 10px;
+
+  .card-list--2-col & {
+    @include mq($from: desktop) {
+
+    }
+  }
+}

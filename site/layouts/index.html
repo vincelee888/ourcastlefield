@@ -1,13 +1,22 @@
 {{ define "main" }}
 
 <section class="home-hero" style="background-image: url({{ .Params.hero.background }})">
+  <div class="home-hero__content">
+    <div class="container">
+      <h1 class="home-hero__title">
+        <span class="home-hero__title-small">{{ .Params.hero.titleSmall }}</span>
+        <span class="home-hero__title-big home-hero__title-big--first">{{ .Params.hero.titleBigFirst }}</span>
+        <span class="home-hero__title-big home-hero__title-big--second">{{ .Params.hero.titleBigSecond }}</span>
+      </h1>
+      {{ partial "bodyMarkdown.html" .Params.hero.body }}
+    </div>
+  </div>
+</section>
+
+<section class="block">
   <div class="container">
-    <h1 class="home-hero__title">
-      <span class="home-hero__title-small">{{ .Params.hero.titleSmall }}</span>
-      <span class="home-hero__title-big home-hero__title-big--first">{{ .Params.hero.titleBigFirst }}</span>
-      <span class="home-hero__title-big home-hero__title-big--second">{{ .Params.hero.titleBigSecond }}</span>
-    </h1>
-    {{ partial "bodyMarkdown.html" .Params.hero.body }}
+    <a class="twitter-timeline" href="https://twitter.com/ourcastlefield?ref_src=twsrc%5Etfw">Tweets by Our Castlefield</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
 </section>
 
@@ -15,7 +24,16 @@
   <div class="container">
     <h1 class="h2">{{ .Params.about.title }}</h1>
     {{ partial "bodyMarkdown.html" .Params.about.body }}
+
+    <ul class="card-list card-list--2-col">
+    {{ range (where .Site.RegularPages "Section" "action-groups") }}
+      <li class="card">
+        <a class="card__container" href="{{ .Permalink }}" style="background-image: url({{ .Params.summary.image }})">
+          <h3 class="card__title">{{ .Params.summary.heading }}</h3>
+        </a>
+      </li>
+    {{ end }}
+    </ul>
   </div>
 </section>
-
 {{ end }}

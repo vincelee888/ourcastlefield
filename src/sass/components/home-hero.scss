@@ -6,10 +6,11 @@
   max-height: 100vh;
   display: flex;
   align-items: flex-end;
+}
 
-  .container {
-    background: rgba(0, 0, 0, 0.7);
-  }
+.home-hero__content {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .home-hero__title {
