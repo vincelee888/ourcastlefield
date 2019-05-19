@@ -7,19 +7,14 @@
       <span class="home-hero__title-big home-hero__title-big--first">{{ .Params.hero.titleBigFirst }}</span>
       <span class="home-hero__title-big home-hero__title-big--second">{{ .Params.hero.titleBigSecond }}</span>
     </h1>
-    {{ $bodyMarkdown := .Params.hero.body | markdownify }}
-    {{ if not ( strings.Contains $bodyMarkdown "<p>" ) }}<p>{{ $bodyMarkdown }}</p>
-    {{ else }}{{ $bodyMarkdown }}{{ end }}
+    {{ partial "bodyMarkdown.html" .Params.hero.body }}
   </div>
 </section>
 
 <section class="block">
   <div class="container">
     <h1 class="h2">{{ .Params.about.title }}</h1>
-    
-    {{ $bodyMarkdown := .Params.about.body | markdownify }}
-    {{ if not ( strings.Contains $bodyMarkdown "<p>" ) }}<p>{{ $bodyMarkdown }}</p>
-    {{ else }}{{ $bodyMarkdown }}{{ end }}
+    {{ partial "bodyMarkdown.html" .Params.about.body }}
   </div>
 </section>
 
