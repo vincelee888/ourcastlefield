@@ -15,8 +15,23 @@
 
 <section class="block">
   <div class="container">
-    <a class="twitter-timeline" href="https://twitter.com/ourcastlefield?ref_src=twsrc%5Etfw">Tweets by Our Castlefield</a>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <div class="column column--2-col">
+    <ul class="card-list">
+    {{ range first 2 (where .Site.RegularPages.ByDate.Reverse "Section" "news") }}
+      <li class="card">
+        <a class="card__container" href="{{ .Permalink }}" style="background-image: url({{ .Params.summary.image }})">
+          <h3 class="card__title">{{ .Params.summary.heading }}</h3>
+          {{ partial "bodyMarkdown.html" .Params.summary.text }}
+        </a>
+      </li>
+    {{ end }}
+    </ul>
+    </div>
+    <div class="column column--2-col">
+      <h1 class="h3">Latest Tweets by <a href="https://twitter.com/ourcastlefield">OurCastlefield</a></h1>
+      <a class="twitter-timeline" data-tweet-limit="1" href="https://twitter.com/ourcastlefield?ref_src=twsrc%5Etfw">Tweets by Our Castlefield</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
   </div>
 </section>
 
@@ -36,4 +51,17 @@
     </ul>
   </div>
 </section>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+
 {{ end }}

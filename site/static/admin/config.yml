@@ -1,0 +1,112 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: "site/static/assets/uploads"
+public_folder: "assets/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    editor:
+      preview: false
+    files:
+      - file: "hugo/content/_index.md"
+        label: "Home"
+        name: "home"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Header", name: "header", widget: "object", fields: [
+              {label: "Background (optional)", name: "background", widget: "image", required: false},
+              {label: "Classes", name: "classes", widget: "hidden", default: "home-header"},
+              {label: "Header Text (optional)", name: "hero", widget: "markdown", required: false}
+            ]}
+          - {label: "What Is", name: "whatis", widget: "object", fields: [
+              {label: "Heading", name: "heading", widget: "string"},
+              {label: "Body", name: "body", widget: "markdown"},
+              {label: "Button", name: "button", widget: "object", fields: [
+                {label: "URL (inc. http://)", name: "url", widget: "string"},
+                {label: "Text", name: "text", widget: "string"}
+              ]},
+              {label: "Image", name: "image", widget: "image"}
+            ]}
+          - {label: "Who", name: "who", widget: "object", fields: [
+              {label: "Heading", name: "heading", widget: "string"},
+              {label: "Body", name: "body", widget: "markdown"}
+            ]}
+          - {label: "How", name: "how", widget: "object", fields: [
+              {label: "Heading", name: "heading", widget: "string"},
+              {label: "Body", name: "body", widget: "markdown"}
+            ]}
+          - {label: "Partners", name: "partners", widget: "object", fields: [
+              {label: "Heading", name: "heading", widget: "string"},
+              {label: "YouTube (embed URL)", name: "youtube", widget: "string"},
+              {label: "Image (only set if no YouTube)", name: "image", widget: "image", required: false },
+              {label: "Body", name: "body", widget: "markdown"},
+              {label: "List", name: "list", widget: "markdown"}
+            ]}
+      
+      - file: "hugo/content/stories/_index.md"
+        label: "Stories"
+        name: "stories"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Show on Home", name: "showonhome", widget: "boolean", default: false}
+          - {label: "Header", name: "header", widget: "object", fields: [
+              {label: "Background (optional)", name: "background", widget: "image", required: false},
+              {label: "Header Text (optional)", name: "hero", widget: "markdown", required: false}
+            ]}
+          - {label: "Intro", name: "intro", widget: "markdown"}
+          - {label: "Heading", name: "heading", widget: "text"}
+          - {label: "Button", name: "button", widget: "object", fields: [
+              {label: "URL (inc. http://)", name: "url", widget: "string"},
+              {label: "Text", name: "text", widget: "string"}
+            ]}
+  - name: "stories"
+    label: "Story"
+    editor:
+      preview: false
+    folder: "hugo/content/stories"
+    create: true
+    filter: {field: "story", value: "yes"}
+    fields:
+      - {label: "Story", name: "story", widget: "hidden", default: "yes"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Header", name: "header", widget: "object", fields: [
+          {label: "Background (optional)", name: "background", widget: "image", required: false},
+          {label: "Header Text (optional)", name: "hero", widget: "markdown", required: false}
+        ]}
+      - {label: "Summary (Card on Home and Stories)", name: "summary", widget: "object", fields: [
+          {label: "Image (Aspect 5by2 - 540px by 216px)", name: "image", widget: "image"},
+          {label: "Heading", name: "heading", widget: "string"},
+          {label: "Text", name: "text", widget: "string"}
+        ]}
+      - {label: "Content", name: "content", widget: "object", fields: [
+          {label: "Image (Aspect 4by3 - 640px by 480px)", name: "image", widget: "image"},
+          {label: "Name", name: "name", widget: "string"},
+          {label: "Age", name: "age", widget: "string"},
+          {label: "Help received", name: "help", widget: "string"},
+          {label: "Body", name: "body", widget: "markdown"}
+        ]}
+      - {label: "Real change", name: "realchange", widget: "object", fields: [
+          {label: "Heading", name: "heading", widget: "string"},
+          {label: "Body", name: "body", widget: "markdown"},
+          {label: "Button", name: "button", widget: "object", fields: [
+            {label: "URL (inc. http://)", name: "url", widget: "string"},
+            {label: "Text", name: "text", widget: "string"}
+          ]}
+        ]}
+  - name: "global"
+    label: "Global"
+    editor:
+      preview: false
+    files:
+      - file: "hugo/content/global/_footer.md"
+        label: "Footer"
+        name: "footer"
+        fields:
+          - {label: "Copyright", name: "copyright", widget: "string"}
+          - {label: "Email address", name: "email", widget: "string"}
+          - {label: "Twitter URL", name: "twitter", widget: "string"}
+          - {label: "Facebook URL", name: "facebook", widget: "string"}
