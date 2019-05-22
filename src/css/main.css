@@ -483,7 +483,6 @@ a {
 
 .header__title {
   font-size: 24px;
-  border-bottom: 2px #C09A5D solid;
   margin-left: 38px;
   text-decoration: none !important; }
 
@@ -494,6 +493,16 @@ a {
 .header__title-second {
   text-decoration: none !important; }
 
+.header__wave {
+  background: url(/assets/images/wave-1200x140.png) repeat-x top center;
+  background-size: 100%;
+  width: 150%;
+  height: 140px;
+  position: absolute; }
+  @media (min-width: 46.25em) {
+    .header__wave {
+      background-size: auto; } }
+
 .container {
   max-width: 840px;
   margin: 0 auto;
@@ -501,6 +510,11 @@ a {
   @media (min-width: 61.25em) {
     .container {
       padding: 20px; } }
+  .header .container {
+    padding-bottom: 0px; }
+    @media (min-width: 46.25em) {
+      .header .container {
+        padding-bottom: 5px; } }
 
 .block {
   position: relative;

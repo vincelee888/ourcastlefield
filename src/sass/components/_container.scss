@@ -6,4 +6,12 @@
   @include mq($from: desktop) {
     padding: 20px;
   }
+
+  .header & {
+    padding-bottom: 0px;
+
+    @include mq($from: tablet) {
+      padding-bottom: 5px;
+    }
+  }
 }
