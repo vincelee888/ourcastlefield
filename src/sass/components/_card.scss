@@ -30,10 +30,28 @@ $card-spacing: 15px;
   border-radius: 10px;
   border: 2px solid $cas-red;
   padding: 10px;
+  height: 200px;
 
   .card-list--2-col & {
-    @include mq($from: desktop) {
+    @include mq($from: tablet) {
 
+    }
+  }
+}
+
+.column {
+  box-sizing: border-box;
+
+  &--2-col {
+    @include mq($from: tablet) {
+      width: 50%;
+      float: left;
+      padding: 0 10px;
+
+      &:first-child,
+      &:last-child {
+        padding-left: 0;
+      }
     }
   }
 }
