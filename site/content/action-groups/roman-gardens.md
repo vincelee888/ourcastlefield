@@ -3,7 +3,8 @@ summary:
   heading: Roman Gardens
   text: Something Roman Gardens
 
-about:
+main:
   title: Roman Gardens
-  body: Something Roman Gardens
+  body: >-
+    Something Roman Gardens
 ---
