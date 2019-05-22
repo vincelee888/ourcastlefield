@@ -102,7 +102,7 @@ collections:
     editor:
       preview: false
     files:
-      - file: "hugo/content/global/_footer.md"
+      - file: "site/content/global/_footer.md"
         label: "Footer"
         name: "footer"
         fields:
