@@ -10,7 +10,7 @@
   .header & {
     padding-bottom: 0px;
 
-    @include mq($from: tablet) {
+    @include mq($from: tablet, $until: desktop) {
       padding-bottom: 5px;
     }
   }

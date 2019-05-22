@@ -494,7 +494,7 @@ a {
   text-decoration: none !important; }
 
 .header__wave {
-  background: url(/assets/images/wave-1200x140.png) repeat-x top center;
+  background: url(/assets/images/wave-1200x140.png) repeat-x top left;
   background-size: 100%;
   width: 150%;
   height: 140px;
@@ -502,6 +502,9 @@ a {
   @media (min-width: 46.25em) {
     .header__wave {
       background-size: auto; } }
+  @media (min-width: 61.25em) {
+    .header__wave {
+      background-position-x: 20%; } }
 
 .container {
   max-width: 840px;
@@ -512,7 +515,7 @@ a {
       padding: 20px; } }
   .header .container {
     padding-bottom: 0px; }
-    @media (min-width: 46.25em) {
+    @media (min-width: 46.25em) and (max-width: 61.24em) {
       .header .container {
         padding-bottom: 5px; } }
 

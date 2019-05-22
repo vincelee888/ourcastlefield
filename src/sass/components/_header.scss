@@ -27,7 +27,7 @@
 }
 
 .header__wave {
-  background: url(/assets/images/wave-1200x140.png) repeat-x top center;
+  background: url(/assets/images/wave-1200x140.png) repeat-x top left;
   background-size: 100%;
   width: 150%;
   height: 140px;
@@ -35,5 +35,9 @@
 
   @include mq($from: tablet) {
     background-size: auto;
+  }
+
+  @include mq($from: desktop) {
+    background-position-x: 20%;
   }
 }
