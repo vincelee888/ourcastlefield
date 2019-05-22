@@ -1,4 +1,5 @@
 ---
+title: A news item
 summary:
   heading: A new item
   text: Something A new item

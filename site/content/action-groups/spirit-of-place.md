@@ -1,4 +1,5 @@
 ---
+title: Spirit of Place Action Group
 summary:
   heading: Spirit of Place
   text: Something about spirit of place

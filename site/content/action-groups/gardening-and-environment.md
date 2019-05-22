@@ -1,4 +1,5 @@
 ---
+title: Gardening and Environment Action Group
 summary:
   heading: Gardening and Environment
   text: Something gardening and environment
