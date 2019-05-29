@@ -16,7 +16,7 @@ collections:
         name: "home"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Header", name: "header", widget: "object", fields: [
+          - {label: "Header", name: "hero", widget: "object", fields: [
               {label: "Small text", name: "titleSmall", widget: "text", required: true},
               {label: "Gold first text", name: "titleBigFirst", widget: "text", required: true},
               {label: "White second text", name: "titleBigSecond", widget: "text", required: true},
