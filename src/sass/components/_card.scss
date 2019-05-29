@@ -13,7 +13,7 @@ $card-spacing: 15px;
   box-sizing: border-box;
 
   .card-list--2-col & {
-    @include mq($from: desktop) {
+    @include mq($from: xs) {
       float: left;
       width: 50%;
       padding-right: $card-spacing;
@@ -26,24 +26,34 @@ $card-spacing: 15px;
 }
 
 .card__container {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   border-radius: 10px;
   border: 2px solid $cas-red;
   padding: 10px;
   height: 200px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
 
   .card-list--2-col & {
-    @include mq($from: tablet) {
+    @include mq($from: xs) {
 
     }
   }
+}
+
+.card__title {
+  color: white;
+  text-shadow: 2px 2px 2px black;
 }
 
 .column {
   box-sizing: border-box;
 
   &--2-col {
-    @include mq($from: tablet) {
+    @include mq($from: xs) {
       width: 50%;
       float: left;
       padding: 0 10px;

@@ -502,16 +502,16 @@ a {
   position: absolute; }
   .header__wave + .block {
     margin-top: 60px; }
-    @media (min-width: 46.25em) {
+    @media (min-width: 30em) {
       .header__wave + .block {
         margin-top: 120px; } }
-    @media (min-width: 61.25em) {
+    @media (min-width: 46.875em) {
       .header__wave + .block {
         margin-top: 160px; } }
-  @media (min-width: 46.25em) {
+  @media (min-width: 30em) {
     .header__wave {
       background-size: auto; } }
-  @media (min-width: 61.25em) {
+  @media (min-width: 46.875em) {
     .header__wave {
       background-position-x: 20%; } }
 
@@ -519,12 +519,12 @@ a {
   max-width: 840px;
   margin: 0 auto;
   padding: 10px; }
-  @media (min-width: 61.25em) {
+  @media (min-width: 46.875em) {
     .container {
       padding: 20px; } }
   .header .container {
     padding-bottom: 0px; }
-    @media (min-width: 46.25em) and (max-width: 61.24em) {
+    @media (min-width: 30em) and (max-width: 46.865em) {
       .header .container {
         padding-bottom: 5px; } }
 
@@ -589,7 +589,7 @@ a {
   text-decoration: none;
   margin-bottom: 15px;
   box-sizing: border-box; }
-  @media (min-width: 61.25em) {
+  @media (min-width: 22.5em) {
     .card-list--2-col .card {
       float: left;
       width: 50%;
@@ -598,15 +598,24 @@ a {
         padding-right: 0px; } }
 
 .card__container {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   border-radius: 10px;
   border: 2px solid #CD1719;
   padding: 10px;
-  height: 200px; }
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top; }
+
+.card__title {
+  color: white;
+  text-shadow: 2px 2px 2px black; }
 
 .column {
   box-sizing: border-box; }
-  @media (min-width: 46.25em) {
+  @media (min-width: 22.5em) {
     .column--2-col {
       width: 50%;
       float: left;

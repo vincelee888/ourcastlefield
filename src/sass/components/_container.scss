@@ -3,14 +3,14 @@
   margin: 0 auto;
   padding: 10px;
 
-  @include mq($from: desktop) {
+  @include mq($from: m) {
     padding: 20px;
   }
 
   .header & {
     padding-bottom: 0px;
 
-    @include mq($from: tablet, $until: desktop) {
+    @include mq($from: s, $until: m) {
       padding-bottom: 5px;
     }
   }
