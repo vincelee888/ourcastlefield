@@ -1,6 +1,6 @@
 ---
 title: A news item
-story: 'yes'
+news: 'yes'
 summary:
   heading: A new item
   text: Something A new item
