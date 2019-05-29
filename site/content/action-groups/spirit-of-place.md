@@ -1,5 +1,6 @@
 ---
 title: Spirit of Place Action Group
+action-group: 'yes'
 summary:
   heading: Spirit of Place
   text: Something about spirit of place

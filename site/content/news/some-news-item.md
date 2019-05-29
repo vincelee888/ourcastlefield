@@ -1,5 +1,6 @@
 ---
 title: A news item
+story: 'yes'
 summary:
   heading: A new item
   text: Something A new item

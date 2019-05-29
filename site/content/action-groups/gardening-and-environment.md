@@ -1,5 +1,6 @@
 ---
 title: Gardening and Environment Action Group
+action-group: 'yes'
 summary:
   heading: Gardening and Environment
   text: Something gardening and environment

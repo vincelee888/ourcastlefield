@@ -51,14 +51,15 @@ collections:
     editor:
       preview: false
     folder: "site/content/action-groups"
-    create: true
+    create: false
     filter: {field: "action-group", value: "yes"}
     fields:
       - {label: "Action Group", name: "action-group", widget: "hidden", default: "yes"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Summary (Card on Home and Action Groups)", name: "summary", widget: "object", fields: [
           {label: "Heading", name: "heading", widget: "string"},
-          {label: "Text", name: "text", widget: "string"}
+          {label: "Text", name: "text", widget: "string"},
+          {label: "Background", name: "image", widget: "image"},
         ]}
       - {label: "Content", name: "main", widget: "object", fields: [
           {label: "Title", name: "title", widget: "string"},

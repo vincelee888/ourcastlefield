@@ -1,5 +1,6 @@
 ---
 title: Events, Signage and Marketing Action Group
+action-group: 'yes'
 summary:
   heading: Events, Signage and Marketing
   text: Something Events, Signage and Marketing

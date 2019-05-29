@@ -1,5 +1,6 @@
 ---
 title: Roman Gardens Action Group
+action-group: 'yes'
 summary:
   heading: Roman Gardens
   text: Something Roman Gardens
