@@ -11,7 +11,7 @@ main:
     "The Gardening and Environment Action Group")
 
 
-    # Purpose
+    ## Purpose
 
 
     To work in conjunction with Friends of the Roman Gardens, MCC and other
@@ -21,7 +21,7 @@ main:
     Level 5 ‘Outstanding’ award.
 
 
-    # Background
+    ## Background
 
 
     Castlefield entered ‘It’s Your Neighbourhood’ in 2010 for the first time and
@@ -31,7 +31,7 @@ main:
     but were awarded Level 5 in 2015, 2016, 2017 and 2018.
 
 
-    # Activities
+    ## Activities
 
 
     * maintain links with appropriate Council officers with responsibility for
