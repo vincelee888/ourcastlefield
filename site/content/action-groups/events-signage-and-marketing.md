@@ -24,6 +24,9 @@ main:
     ## **Background**
 
 
+    **Events**
+
+
     A wide range of events have taken place in the Castlefield Arena and
     surrounding area over the past few years. These are mostly externally
     developed events, through MCC Events Team although as a Forum we have worked
