@@ -11,14 +11,14 @@ main:
     "The Gardening and Environment Action Group")
 
 
-    ## Purpose
+    # Action Group
 
 
-    To work in conjunction with Friends of the Roman Gardens, MCC and other
-    local partners to keep the area attractive, green and tidy. The group also
-    works in liaison with MCC and local partners to present a credible entry to
-    the ‘It’s Your Neighbourhood’ section of North West in Bloom, aiming for a
-    Level 5 ‘Outstanding’ award.
+    This group works in conjunction with Friends of the Roman Gardens, MCC and
+    other local partners to keep the area attractive, green and tidy. The group
+    also works in liaison with MCC and local partners to present a credible
+    entry to the ‘It’s Your Neighbourhood’ section of North West in Bloom,
+    aiming for a Level 5 ‘Outstanding’ award.
 
 
     ## Background
