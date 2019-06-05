@@ -6,7 +6,9 @@ summary:
   image: /assets/uploads/kristian_willis_blooms_small.jpg
   text: Charity
 main:
-  body: blah blah blah blah
+  body: >-
+    After months in the planning and application process, Castlefield Forum has
+    now achieved charitable status as a Charitable Incorporated Organisation.
   title: Castlefield Forum achieves charitable status
 ---
 
