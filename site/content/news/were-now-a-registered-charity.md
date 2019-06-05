@@ -2,8 +2,8 @@
 news: 'yes'
 title: We're Now A Registered Charity!
 summary:
-  heading: We're Now A Charity
-  image: /assets/uploads/kristian_willis_blooms.jpg
+  heading: We're Now A Registered Charity!
+  image: /assets/uploads/kristian_willis_blooms_small.jpg
   text: Charity
 main:
   body: blah blah blah blah
