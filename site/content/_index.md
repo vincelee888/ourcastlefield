@@ -43,6 +43,10 @@ about:
     work to meet these objectives. It's a great way to meet others in the
     community, to have a say in what happens and to give something back  to this
     amazing place.
+
+
+    **If you'd like to join any of our action groups, please email us at
+    info@ourcastlefield.co.uk**
   title: About the Forum
 ---
 
