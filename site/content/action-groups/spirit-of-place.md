@@ -57,8 +57,7 @@ main:
 
 
 
-    Many thanks to Andrew Humphrey for the use of the images for this action
-    group
+    Image credit: Andrew Humphrey
   title: Spirit of Place
 ---
 
