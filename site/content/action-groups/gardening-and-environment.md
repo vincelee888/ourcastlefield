@@ -21,6 +21,10 @@ main:
     aiming for a Level 5 ‘Outstanding’ award.
 
 
+    **If you'd like to join this, or any of our actions groups, please email us
+    at info@ourcastlefield.co.uk**
+
+
     ## Background
 
 
