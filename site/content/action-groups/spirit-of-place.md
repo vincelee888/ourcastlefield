@@ -21,7 +21,7 @@ main:
     structures, waterways and stories.
 
 
-    **If you would like to join this, or any of our actions groups, please email
+    **If you would like to join this or any of our actions groups, please email
     us at info@ourcastlefield.co.uk**
 
 
@@ -53,8 +53,6 @@ main:
     * Agree a Spirit of Place Statement 
 
     * Finalise an Action Plan & work with the National Trust to deliver the plan
-
-
 
 
     Image credit: Andrew Humphrey
