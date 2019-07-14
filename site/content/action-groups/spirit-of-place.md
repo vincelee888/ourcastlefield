@@ -8,8 +8,8 @@ summary:
 main:
   body: >-
     ![View of Castlefield with Beetham Tower in the
-    background](/assets/uploads/andrew_humphrey_1cr.jpg "View of Castlefield
-    with Beetham Tower in the background")
+    background](/assets/uploads/andrew_humphrey_1cr_500p.jpg "View of
+    Castlefield with Beetham Tower in the background")
 
 
     # Action Group
