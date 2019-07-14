@@ -7,6 +7,9 @@ summary:
   text: Something about spirit of place
 main:
   body: >-
+    # Action Group
+
+
     The Spirit of Place action group is working with the National Trust to
     understand the spirit of Castlefield, including its value to the city of
     Manchester and beyond, its heritage, people, buildings, open spaces,
