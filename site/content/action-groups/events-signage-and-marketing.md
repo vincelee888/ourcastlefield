@@ -18,7 +18,11 @@ main:
     city. It works to develop our own events and contribute to events organised
     by others, and to develop greater financial self-reliance for the Forum by
     developing Castlefield’s marketing potential, to include development of
-    www.ourcastlefield.co.uk   
+    www.ourcastlefield.co.uk.
+
+
+    **If you'd like to join this, or any of our actions groups, please email us
+    at info@ourcastlefield.co.uk**   
 
 
     ## **Background**
