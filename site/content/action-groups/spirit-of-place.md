@@ -53,6 +53,12 @@ main:
     * Agree a Spirit of Place Statement 
 
     * Finalise an Action Plan & work with the National Trust to deliver the plan
+
+
+
+
+    Many thanks to Andrew Humphrey for the use of the images for this action
+    group
   title: Spirit of Place
 ---
 
