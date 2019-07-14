@@ -3,7 +3,7 @@ news: 'yes'
 title: We're Now A Registered Charity!
 summary:
   heading: We're Now A Registered Charity!
-  image: /assets/uploads/kristian_willis_blooms_1000p.jpg
+  image: /assets/uploads/kristian_willis_blooms_cr800p.jpg
   text: Castlefield Forum has achieved charitable status
 main:
   body: >-
