@@ -45,8 +45,8 @@ about:
     amazing place.
 
 
-    **If you'd like to join any of our action groups, please email us at
-    info@ourcastlefield.co.uk**
+    **If you'd like to join any of our action groups, please email us at**
+    [**info@ourcastlefield.co.uk**](info@ourcastlefield.co.uk)****
   title: About the Forum
 ---
 
