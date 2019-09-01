@@ -7,3 +7,10 @@
     text-align: center;
   }
 }
+
+.youtube {
+  width: 100%;
+  @include mq($from: m) {
+    max-width: 560px;
+  }
+}

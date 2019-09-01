@@ -539,6 +539,12 @@ a {
   .block--centred {
     text-align: center; }
 
+.youtube {
+  width: 100%; }
+  @media (min-width: 46.875em) {
+    .youtube {
+      max-width: 560px; } }
+
 .footer {
   background: black;
   color: white;
