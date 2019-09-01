@@ -59,11 +59,13 @@ collections:
       - {label: "Summary (Card on Home and Action Groups)", name: "summary", widget: "object", fields: [
           {label: "Heading", name: "heading", widget: "string"},
           {label: "Text", name: "text", widget: "string"},
-          {label: "Background", name: "image", widget: "image"},
+          {label: "Background", name: "image", widget: "image"}
         ]}
       - {label: "Content", name: "main", widget: "object", fields: [
           {label: "Title", name: "title", widget: "string"},
-          {label: "Body", name: "body", widget: "markdown"}
+          {label: "Body A", name: "body", widget: "markdown"},
+          {label: "Body B", name: "body2", widget: "markdown"},
+          {label: "Youtube", name: "youtube", widget: "string"}
         ]}
   - name: "news"
     label: "News"

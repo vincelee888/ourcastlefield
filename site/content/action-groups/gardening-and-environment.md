@@ -4,7 +4,7 @@ title: Gardening and Environment Action Group
 summary:
   heading: Gardening and Environment
   image: /uploads/gardening-summary.jpg
-  text: Something gardening and environment
+  text: Keeping Castlefield attractive, green and tidy
 main:
   body: >-
     ![](/assets/uploads/60354828_10218740868934200_7942013551055470592_o.jpg

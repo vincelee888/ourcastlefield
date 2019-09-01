@@ -4,7 +4,7 @@ title: 'Events, Signage and Marketing Action Group'
 summary:
   heading: 'Events, Signage and Marketing'
   image: /uploads/events-summary.jpg
-  text: 'Something Events, Signage and Marketing'
+  text: Raising the profile of Castlefield within the city
 main:
   body: >-
     ![](/assets/uploads/market-banner.jpg "Events, Signage and Marketing Action

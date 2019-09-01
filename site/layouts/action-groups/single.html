@@ -1,0 +1,14 @@
+{{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
+<article class="block">
+  <main class="container">
+    <h1>{{ .Params.main.title }}</h1>
+    {{ partial "bodyMarkdown.html" .Params.main.body }}
+
+    <div class="block block--centred">
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VLG_ek4BJ6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    {{ partial "bodyMarkdown.html" .Params.main.body2 }}
+  </main>
+</article>
+{{ end }}

@@ -4,7 +4,7 @@ title: Roman Gardens Action Group
 summary:
   heading: Roman Gardens
   image: /uploads/roman-gardens-summary.jpg
-  text: Something Roman Gardens
+  text: An exciting, inspiring urban retreat for Manchester
 main:
   body: >-
     # Action Group

@@ -4,7 +4,7 @@ title: Spirit of Place Action Group
 summary:
   heading: Spirit of Place
   image: /uploads/spirit-of-place-summary.jpg
-  text: Something about spirit of place
+  text: Working with the National Trust to understand the spirit of Castlefield
 main:
   body: >-
     ![View of Castlefield with Beetham Tower in the
@@ -27,6 +27,9 @@ main:
 
     **For local businesses that want to know how they can be a part of this
     great initiative please email spiritofplace@ourcastlefield.co.uk**
+
+    Image credit: Andrew Humphrey
+  body2: >-
 
 
     ## Background
@@ -54,8 +57,7 @@ main:
 
     * Finalise an Action Plan & work with the National Trust to deliver the plan
 
-
-    Image credit: Andrew Humphrey
   title: Spirit of Place
+  youtube: https://www.youtube-nocookie.com/embed/VLG_ek4BJ6U
 ---
 

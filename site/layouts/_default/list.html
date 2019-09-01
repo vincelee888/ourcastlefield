@@ -5,17 +5,16 @@
     <h1 class="h2">{{ .Params.about.title }}</h1>
 
     {{ partial "bodyMarkdown.html" .Params.about.body }}
-    
-    {{ range first 2 .Pages }}
-    <div class="card-story card-stroy-witharrow">
-      <h3 class="card-story-title">{{ .Params.summary.heading }}</h3>
-      <div class="card-story-image aspect aspect-5by2 bg-rc-spark">
-        <img alt="" src="{{ .Params.summary.image }}">
-      </div>
-      <a class="card-story-cta" href="{{ .Permalink }}">{{ .Params.summary.text }}</a>
-    </div>
-    {{ end }}
-  </div>
+
+    <ul class="card-list card-list--2-col">
+      {{ range .Pages }}
+      <li class="card">
+        <a class="card__container" href="{{ .Permalink }}" style="background-image: url({{ .Params.summary.image }})">
+          <h3 class="card__title">{{ .Params.summary.heading }}</h3>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
 </section>
 
 {{ end }}
